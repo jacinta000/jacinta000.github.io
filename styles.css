@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: #f5f6f9;
+    border-bottom: 1px solid #5f5e97;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 80px;
+    color: #0f8c55;
+    font-size: 20px;
+}
+
+.logo {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #0f8c55;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #0f8c55;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.nav a:hover {
+    opacity: 0.8;
+}
+
+/* Main Content */
+.main {
+    background-color: #f5f6f9;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 24px;
+}
+
+/* sobreMi */
+.carrera-mia {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 0 80px;
+    padding-bottom: 16px;
+    color: #444365;
+}
+
+.intro-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    padding: 0 80px;
+    padding-bottom: 24px;
+    color: #444365;
+}
+
+.intro-text {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro-aside {
+    width: 224px;
+    flex-shrink: 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* galeríaImagenes */
+.image-gallery {
+    display: flex;
+    gap: 24px;
+    padding: 0 80px;
+    height: 461px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box {
+    background-color: #d9d9d9;
+}
+
+.image-tall {
+    width: 196px;
+    height: 100%;
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+    width: 327px;
+}
+
+.image-square {
+    flex: 1;
+    width: 100%;
+}
+
+.image-wide {
+    flex: 1;
+    height: 100%;
+    min-width: 0;
+}
+
+/* educacionExperiencia */
+.contenido {
+    display: flex;
+    padding: 0 80px;
+}
+
+.columna-educacion {
+    display: flex;
+    flex-direction: column;
+    width: 356px;
+    padding-top: 24px;
+}
+
+.experience-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.titulo-seccion {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #444365;
+}
+
+.donde-estudie {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: #444365;
+}
+
+/* Work Categories */
+.work-category {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #a1a1aa;
+}
+
+.work-category.last {
+    border-bottom: none;
+}
+
+.category-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #444365;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.work-header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.company-name {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.year {
+    flex: 1;
+    font-weight: 300;
+}
+
+.work-description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    white-space: pre-wrap;
+}
