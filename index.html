@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jacintaBarreCas Portafolio</title>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
@@ -35,9 +36,9 @@
                     interpersonales que facilitan la colaboración y el alto rendimiento dentro de equipos de trabajo.
                 </p>
                 <br>
-                <p>dentro de mi trayectoria como diseñadora he aplicado mi disciplina en proyectos que impactan en en el
-                    bienestar de las personas, desarrollando productos digitales que proporcionan una experiencia
-                    beneficiosa tanto para el negocio como para las personas usuarias.</p>
+                <p>a lo largo de mi trayectoria como diseñadora, he enfocado mi práctica en proyectos que buscan
+                    impactar en el bienestar de las personas mediante el desarrollo de productos y experiencias con
+                    propósito social.</p>
             </div>
             <div class="intro-aside">
                 <p>me gustaría agradecer a la investigación, el análisis, la iteración y al sentido del humor por formar
@@ -45,95 +46,111 @@
                 </p>
             </div>
         </section>
-        <!-- galeriaImagenes -->
-        <section class="image-gallery">
-            <div class="image-box image-tall"></div>
-            <div class="image-column">
-                <div class="image-box image-square"></div>
-                <div class="image-box image-square"></div>
+
+        <!-- galeríaImágenes -->
+        <section class="image-gallery" id="imageGallery">
+            <div class="image-box image-tall">
+                <img src="img/aficheDanzaB.jpg" alt="afiche de evento Danza B" onclick="openLightbox(0)">
             </div>
-            <div class="image-box image-wide"></div>
+
+            <div class="image-column">
+                <div class="image-box image-square">
+                    <img src="img/odiseaAllende1.jpg"
+                        alt="Obra de teatro Allende:la odisea interrumpida de un pueblo que quería volar"
+                        onclick="openLightbox(1)">
+                </div>
+                <div class="image-box image-square">
+                    <img src="img/mercadoAgua1.jpg" alt="Mercado del agua: visualización de datos dinámica"
+                        onclick="openLightbox(2)">
+                </div>
+            </div>
+
+            <div class="image-box image-wide">
+                <img src="img/labFel1.jpeg" alt="Laboratorios de Felicidad: taller de diálogo"
+                    onclick="openLightbox(3)">
+            </div>
         </section>
+
         <!-- educacionExperiencia -->
         <section class="contenido">
             <div class="columna-educacion">
                 <p class="titulo-seccion">Educación</p>
-                <br>
                 <p class="donde-estudie">Carrera de Diseño Gráfico en Universidad Diego Portales</p>
-                <p>2021 - 2025</p>
+                <br>
+                <p class="año-estudios">2021 - 2025</p>
             </div>
 
-            <div class="experience-column">
+            <div class="columna-experiencia">
                 <p class="titulo-seccion">Antecedentes laborales</p>
-                <div class="work-category">
-                    <p class="category-title">UX / UI</p>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
+                <div class="ambito-pega">
+                    <p class="titulo-ambito">UX / UI</p>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
                         </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
                     </div>
                 </div>
 
-                <div class="work-category">
-                    <p class="category-title">Academia</p>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
+                <div class="ambito-pega">
+                    <p class="titulo-ambito">Academia</p>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
                         </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
                     </div>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
                         </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
-                    </div>
-                </div>
-
-                <div class="work-category">
-                    <p class="category-title">Ayudantías</p>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
-                        </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
-                        </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
-                        </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
                     </div>
                 </div>
 
-                <div class="work-category last">
-                    <p class="category-title">Freelance</p>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
+                <div class="ambito-pega">
+                    <p class="titulo-ambito">Ayudantías</p>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
                         </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
                     </div>
-                    <div class="work-item">
-                        <div class="work-header">
-                            <span class="company-name">Globallys</span>
-                            <span class="year">Año</span>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
                         </div>
-                        <p class="work-description">Descripción breve del proyecto Descripción breve del</p>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
+                    </div>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
+                        </div>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
+                    </div>
+                </div>
+
+                <div class="ambito-pega last">
+                    <p class="titulo-ambito">Freelance</p>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
+                        </div>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
+                    </div>
+                    <div class="pega">
+                        <div class="pega-header">
+                            <span class="pega-nombre">Globallys</span>
+                            <span class="año">Año</span>
+                        </div>
+                        <p class="pega-descripcion">Descripción breve del proyecto Descripción breve del</p>
                     </div>
                 </div>
             </div>
