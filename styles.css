@@ -149,8 +149,9 @@ body {
 /* educacionExperiencia */
 .contenido {
     display: flex;
-    padding: 0 80px;
+    flex-direction: column;
     gap: 16px;
+    flex: 1 0 0;
 }
 
 .columna-educacion {
