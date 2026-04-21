@@ -157,6 +157,7 @@ body {
     flex-direction: column;
     width: 356px;
     padding-top: 24px;
+    color: #444365;
 }
 
 .columna-experiencia {
@@ -180,14 +181,12 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
-    color: #444365;
 }
 
 .año-estudios {
     font-size: 16px;
     font-weight: 300;
     line-height: normal;
-    color: #444365;
 }
 
 /* Work Categories */
