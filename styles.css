@@ -168,7 +168,6 @@ body {
     width: 700px;
     padding-top: 24px;
     color: #444365;
-    gap: 16px;
 }
 
 .titulo-seccion {
@@ -192,6 +191,13 @@ body {
 }
 
 /* Work Categories */
+.contenido-experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
 .ambito-pega {
     display: flex;
     flex-direction: column;
@@ -237,5 +243,4 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
-    white-space: pre-wrap;
 }
