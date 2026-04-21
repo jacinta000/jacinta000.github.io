@@ -223,8 +223,8 @@ body {
 
 .pega-header {
     display: flex;
-    gap: 16px;
-    align-items: center;
+    gap: 8px;
+    align-items: flex-end;
     font-size: 20px;
     line-height: normal;
 }
