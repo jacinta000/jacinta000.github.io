@@ -149,9 +149,7 @@ body {
 /* educacionExperiencia */
 .contenido {
     display: flex;
-    flex-direction: column;
-    gap: 16px;
-    flex: 1 0 0;
+    padding: 0 80px;
 }
 
 .columna-educacion {
@@ -169,6 +167,7 @@ body {
     width: 700px;
     padding-top: 24px;
     color: #444365;
+    gap: 16px;
 }
 
 .titulo-seccion {
