@@ -165,6 +165,7 @@ body {
     flex-direction: column;
     width: 700px;
     padding-top: 24px;
+    color: #444365;
 }
 
 .titulo-seccion {
