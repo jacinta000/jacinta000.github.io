@@ -157,7 +157,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 356px;
-    padding-top: 16px;
+    padding-top: 24px;
     color: #444365;
 }
 
@@ -166,7 +166,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 700px;
-    padding-top: 24px;
+    padding-top: 16px;
     color: #444365;
     gap: 16px;
 }
