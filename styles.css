@@ -150,6 +150,7 @@ body {
 .contenido {
     display: flex;
     padding: 0 80px;
+    gap: 16px;
 }
 
 .columna-educacion {
@@ -167,7 +168,6 @@ body {
     width: 700px;
     padding-top: 24px;
     color: #444365;
-    gap: 16px;
 }
 
 .titulo-seccion {
