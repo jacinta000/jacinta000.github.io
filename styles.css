@@ -19,7 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 28px 80px;
-    color: #0f8c55;
+    color: #0C7046;
     font-size: 20px;
 }
 
@@ -27,7 +27,7 @@ body {
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    color: #0f8c55;
+    color: #0C7046;
 }
 
 .nav {
@@ -38,7 +38,7 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #0f8c55;
+    color: #0C7046;
     font-weight: 400;
     white-space: nowrap;
 }
@@ -68,7 +68,7 @@ body {
     display: flex;
     padding: 0 80px;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: flex-end;
     gap: 64px;
     padding-bottom: 48px;
     align-self: stretch;
@@ -105,7 +105,8 @@ body {
 
 .image-box {
     overflow: hidden;
-    position: relative;;
+    position: relative;
+    ;
 }
 
 .image-box img {
@@ -164,6 +165,13 @@ body {
     color: #444365;
 }
 
+.datos-educacion {
+    display: flex;
+    align-items: baseline;
+    align-self: stretch;
+    flex-direction: row-reverse;
+}
+
 .titulo-seccion {
     font-size: 16px;
     font-style: italic;
@@ -173,13 +181,13 @@ body {
 }
 
 .donde-estudie {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: normal;
 }
 
 .año-estudios {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
     line-height: normal;
 }
@@ -205,7 +213,7 @@ body {
 }
 
 .titulo-ambito {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -219,7 +227,7 @@ body {
     display: flex;
     gap: 8px;
     align-items: flex-end;
-    font-size: 20px;
+    font-size: 16px;
     line-height: normal;
 }
 
@@ -230,12 +238,80 @@ body {
 
 .año {
     flex: 1;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 300;
 }
 
 .pega-descripcion {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: normal;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    padding: 80px;
+    background-color: #f5f6f9;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.footer-nav a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #444365;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+}
+
+.footer-nav a:hover {
+    opacity: 0.7;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+
+.footer-social a:hover {
+    opacity: 0.7;
+}
+
+.footer-social svg {
+    display: block;
+}
+
+.footer-email {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 3px;
+}
+
+.footer-email span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444365;
+    white-space: nowrap;
 }
