@@ -315,7 +315,7 @@ body {
 /* donde va el pdf */ 
 .pdf-container {
     padding: 40px;
-    background-color: #444365
+    background-color: #444365;
 }
 
 .pdf-container iframe {
